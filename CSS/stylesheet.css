@@ -87,6 +87,17 @@ img {
     padding-top: 32px;
  }
 
+ .contacts-m-t::before{
+    display: inline-flex;
+    align-items: center;
+    content: "";
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/icons.svg/envelope\ \(hover\).png);
+    margin-right: 10px;
+    
+ }
+
 .header-link{
     display: block;
     padding-top: 32px;
