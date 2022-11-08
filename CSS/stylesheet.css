@@ -235,10 +235,22 @@ img {
     display: block;
     height: 120px;
     background-color: rgba(245, 244, 250, 1);
-    background-image: url(../images/icons/antenna\ 1.png);
     background-repeat: no-repeat;
     background-size: 70px 70px;
     background-position: center;
+    margin-bottom: 30px;
+}
+.special-card.icon-antenna::before{
+    background-image: url(../images/icons/antenna\ 1.png);
+}
+.special-card.icon-clock::before{
+    background-image: url(../images/icons/clock\ 1.png);
+}
+.special-card.icon-diagram::before{
+    background-image: url(../images/icons/diagram\ 1.png);
+}
+.special-card.icon-astronaut::before{
+    background-image: url(../images/icons/astronaut\ 1.png);
 }
 
 .second-title{
