@@ -157,7 +157,18 @@ img {
 
 /* .main-section */
 .main-section{
-    background-color:var(--just-color); 
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color:var(--just-color);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../images/css-images/main-section.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
 }
