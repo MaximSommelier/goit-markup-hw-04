@@ -241,16 +241,16 @@ img {
     margin-bottom: 30px;
 }
 .special-card.icon-antenna::before{
-    background-image: url(../images/icons/antenna\ 1.png);
+    background-image: url(../images/icons/antenna\ 1.svg);
 }
 .special-card.icon-clock::before{
-    background-image: url(../images/icons/clock\ 1.png);
+    background-image: url(../images/icons/clock\ 1.svg);
 }
-.special-card.icon-diagram::before{
-    background-image: url(../images/icons/diagram\ 1.png);
+.special-card.icon-vector::before{
+    background-image: url(../images/icons/Vector.svg);
 }
 .special-card.icon-astronaut::before{
-    background-image: url(../images/icons/astronaut\ 1.png);
+    background-image: url(../images/icons/astronaut\ 1.svg);
 }
 
 .second-title{
