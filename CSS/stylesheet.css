@@ -87,6 +87,7 @@ img {
     padding-top: 32px;
  }
 
+/* Иконки  */
  .contacts-m-t::before{
     display: inline-flex;
     align-items: center;
@@ -94,14 +95,16 @@ img {
     width: 16px;
     height: 12px;
     background-size: contain;
+    background-repeat: no-repeat;
     margin-right: 10px;
 }
-.contacts-m-t:nth-child(1)::before{
-    background-image: url(../images/icons/envelope.svg)
+.icon-envelope::before{
+    background-image: url(../images/icons/envelope.svg);
 }
-.contacts-m-t:nth-child(2)::before{
+.icon-phone::before{
     background-image: url(../images/icons/smartphone.svg);
 }
+/* конец иконок */
 
 .header-link{
     display: block;
@@ -125,21 +128,6 @@ img {
     color: var(--main-color);
 }
 
-/* .contacts1 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--second-color);
-    text-decoration: none;
-    list-style-type: none;
-    letter-spacing: 0.02em;
-}
-.contacts1:hover{
-    color: var(--little-color);
-}
-.contacts1:focus{
-    color: var(--little-color);
-} */
 .contacts1 {
     margin-left: 50px;
     font-weight: 500;
