@@ -93,11 +93,15 @@ img {
     content: "";
     width: 16px;
     height: 12px;
-    background-image: url(../images/icons/envelope\ \(hover\).png);
     background-size: contain;
     margin-right: 10px;
-    
- }
+}
+.contacts-m-t:nth-child(1)::before{
+    background-image: url(../images/icons/envelope.svg)
+}
+.contacts-m-t:nth-child(2)::before{
+    background-image: url(../images/icons/smartphone.svg);
+}
 
 .header-link{
     display: block;
@@ -114,14 +118,14 @@ img {
     list-style-type: none;
     letter-spacing: 0.02em;
 }
-.contacts:hover{
+.cont-hov:hover{
     color: var(--second-color);
 }
-.contacts:focus{
+.cont-hov:focus{
     color: var(--main-color);
 }
 
-.contacts1 {
+/* .contacts1 {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -135,8 +139,8 @@ img {
 }
 .contacts1:focus{
     color: var(--little-color);
-}
-.contacts2 {
+} */
+.contacts1 {
     margin-left: 50px;
     font-weight: 500;
     font-size: 14px;
