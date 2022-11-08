@@ -230,6 +230,17 @@ img {
     gap: 30px;
 }
 
+.special-card::before{
+    content: "";
+    display: block;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    background-image: url(../images/icons/antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: center;
+}
+
 .second-title{
     padding-top: 10px;
     width: 270px;
