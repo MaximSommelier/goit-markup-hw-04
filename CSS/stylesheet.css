@@ -87,25 +87,6 @@ img {
     padding-top: 32px;
  }
 
-/* Иконки  */
- .contacts-m-t::before{
-    display: inline-flex;
-    align-items: center;
-    content: "";
-    width: 16px;
-    height: 12px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-}
-.icon-envelope::before{
-    background-image: url(../images/icons/envelope.svg);
-}
-.icon-phone::before{
-    background-image: url(../images/icons/smartphone.svg);
-}
-/* конец иконок */
-
 .header-link{
     display: block;
     padding-top: 32px;
@@ -168,7 +149,7 @@ img {
     background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/css-images/main-section.png);
+    url(../images/main-section.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -219,29 +200,6 @@ img {
 .list-special{
     display: flex;
     gap: 30px;
-}
-
-.special-card::before{
-    content: "";
-    display: block;
-    height: 120px;
-    background-color: rgba(245, 244, 250, 1);
-    background-repeat: no-repeat;
-    background-size: 70px 70px;
-    background-position: center;
-    margin-bottom: 30px;
-}
-.special-card.icon-antenna::before{
-    background-image: url(../images/icons/antenna\ 1.svg);
-}
-.special-card.icon-clock::before{
-    background-image: url(../images/icons/clock\ 1.svg);
-}
-.special-card.icon-vector::before{
-    background-image: url(../images/icons/Vector.svg);
-}
-.special-card.icon-astronaut::before{
-    background-image: url(../images/icons/astronaut\ 1.svg);
 }
 
 .second-title{
@@ -479,14 +437,6 @@ img {
     font-style: normal;
     text-decoration: none;
     letter-spacing: 0.03em;
-}
-
-.contacts-footer:hover{
-    color: var(--second-color);
-}
-
-.contacts-footer:focus{
-    color: var(--main-color);
 }
 
 .address1{
