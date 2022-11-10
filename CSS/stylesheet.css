@@ -266,7 +266,7 @@ img {
     line-height: 1.18;
 }
 /* Иконки Команды */
-.comand-links{
+/* .comand-links{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -276,26 +276,22 @@ img {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/icons/inst.svg);
 }
 .comand-link-icon-twitt{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/icons/twitt.svg)
 }
 .comand-link-icon-fb{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/icons/fb.svg);
 }
 .comand-link-icon-in{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/icons/in.svg);
-}
+} */
 /* Portfolio */
 .portfolio{
     display: flex;
