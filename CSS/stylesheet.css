@@ -278,15 +278,20 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
     width: 44px;
     height: 44px;
     border-radius: 50%;
 }
 
+.socials-links
+
 .socials-icon {
     fill: 
     rgba(175, 177, 184, 1);
 }
+
+
 /* Portfolio */
 .portfolio{
     display: flex;
