@@ -83,6 +83,9 @@ img {
 }  
 
  .contacts-m-t{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding-bottom: 32px;
     padding-top: 32px;
  }
@@ -137,6 +140,11 @@ img {
     color: var(--first-color);
     letter-spacing: 0.03em;
 }
+/* Иконки хедера */
+.header-icon{
+    fill: currentColor;
+}
+
 
 .header-navi-border{
     border-bottom: 1px solid var(--portfolio-border);
@@ -222,7 +230,16 @@ img {
     font-size: 14px;
     line-height: 1.71;
 }
-
+.special-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
 /* чим займаємося */
 .list-about{
     display: flex;
@@ -246,7 +263,9 @@ img {
     flex-wrap: wrap;
     gap: 30px;
 }
-
+.team-card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .comand-h-p{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -298,6 +317,22 @@ img {
 .socials-links:focus .socials-icon,
 .socials-links:hover .socials-icon{
     fill: var(--third-color);
+}
+/* Наші клієнти */
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.client{
+    width: 170px;
+    height: 90px;  
+    border: 1px solid rgba(175, 177, 184, 1); 
+    border-radius: 4px;
+}
+.icon-client{
+    
 }
 
 /* Portfolio */
