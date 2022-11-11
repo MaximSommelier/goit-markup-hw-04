@@ -266,32 +266,22 @@ img {
     line-height: 1.18;
 }
 /* Иконки Команды */
-/* .comand-links{
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
+.socials{
     margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-.comand-link-icon-inst{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
+
+.socials-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
-.comand-link-icon-twitt{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-.comand-link-icon-fb{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-.comand-link-icon-in{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-} */
 /* Portfolio */
 .portfolio{
     display: flex;
