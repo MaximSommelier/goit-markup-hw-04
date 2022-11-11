@@ -326,13 +326,20 @@ img {
     gap: 30px;
 }
 .client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 90px;  
     border: 1px solid rgba(175, 177, 184, 1); 
     border-radius: 4px;
+    cursor: pointer;
 }
 .icon-client{
-    
+    fill: var(--little-color);
+}
+.icon-client:hover{
+    fill: var(--second-color);
 }
 
 /* Portfolio */
