@@ -498,3 +498,23 @@ letter-spacing: 0.03em;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
+.container-footer{
+    display: flex;
+}
+.left-footer{
+    margin-right: 70px;
+}
+.socials-footer{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.footer-title{
+    padding-top: 10px;
+    width: 270px;
+    color: var(--third-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
