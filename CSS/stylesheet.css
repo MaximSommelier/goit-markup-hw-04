@@ -283,8 +283,9 @@ img {
     border-radius: 50%;
 }
 
-.socials-icon{
-    fill: FFFFFF;
+.socials-icon {
+    fill: 
+    rgba(175, 177, 184, 1);
 }
 /* Portfolio */
 .portfolio{
