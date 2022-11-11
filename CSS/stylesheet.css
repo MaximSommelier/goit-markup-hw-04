@@ -283,14 +283,19 @@ img {
     height: 44px;
     border-radius: 50%;
 }
-
-.socials-links
+.socials-links:focus,
+.socials-links:hover{
+    background-color: var(--second-color);
+}
 
 .socials-icon {
     fill: 
     rgba(175, 177, 184, 1);
 }
-
+.socials-links:focus .socials-icon,
+.socials-links:hover .socials-icon{
+    fill: var(--third-color);
+}
 
 /* Portfolio */
 .portfolio{
