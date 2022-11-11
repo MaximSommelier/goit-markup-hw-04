@@ -102,15 +102,6 @@ img {
     list-style-type: none;
     letter-spacing: 0.02em;
 }
-.contacts:hover,
-.contacts1:hover{
-    color: var(--second-color);
-}
-
-.contacts:focus,
-.contacts1:focus{
-    color: var(--main-color);
-} 
 
 .contacts1 {
     margin-left: 50px;
@@ -121,6 +112,14 @@ img {
     text-decoration: none;
     list-style-type: none;
     letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts1:hover {
+    color: var(--second-color);
+}
+.contacts:focus,
+.contacts1:focus {
+    color: var(--main-color);
 }
 
 .logo-link{ 
