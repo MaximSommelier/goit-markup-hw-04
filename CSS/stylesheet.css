@@ -3,6 +3,7 @@
     /* DEFOLT */
     --main-color: #212121; 
     --main-bg-color: #F5F5F5;
+    --bg-color-team: #F5F4FA;
     --first-color: #000000;
     --second-color: #2196F3;
     --third-color: #fff;
@@ -11,6 +12,7 @@
     --main-button-background: #1B8CEB;
     --portfolio-border: #EEEEEE;
     --contacts-footer: rgba(255, 255, 255, 0.6);
+    --icons-color: rgba(175, 177, 184, 1);
 
     --indent: 30px;
     --itens: 3;
@@ -123,7 +125,7 @@ img {
 }
 .contacts:focus,
 .contacts1:focus {
-    color: var(--main-color);
+    color: var(--second-color);
 }
 
 .logo-link{ 
@@ -239,7 +241,7 @@ img {
     width: 270px;
     height: 120px;
     border-radius: 4px;
-    background-color: #F5F4FA;
+    background-color: var(--bg-color-team);
 }
 /* чим займаємося */
 .list-about{
@@ -255,6 +257,11 @@ img {
     padding-top: 0px;
 }
 /* команда */
+
+.section-team{
+    background-color: var(--bg-color-team);
+}
+
 .title-team{
     text-align: center;
     margin-bottom: 50px;
@@ -270,6 +277,7 @@ img {
 .comand-h-p{
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: var(--third-color);
 }
 .comand{
     margin-bottom: 10px;
@@ -300,14 +308,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--third-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
 }
 
 .socials-icon {
-    fill:rgba(175, 177, 184, 1);
+    fill: var(--icons-color);
 }
 
 .socials-links:focus,
@@ -326,21 +334,29 @@ img {
     align-items: center;
     gap: 30px;
 }
-.client{
+
+.client-link{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 170px;
-    height: 90px;  
-    border: 1px solid rgba(175, 177, 184, 1); 
+    height: 90px;
+    background-color: var(--third-color);  
+    border: 1px solid var(--icons-color); 
     border-radius: 4px;
     cursor: pointer;
 }
-.icon-client{
-    fill: var(--little-color);
+.client-link:hover,
+.client-link:focus{
+    color: var(--second-color);
 }
-.icon-client:hover
-{
+
+.icon-client{
+    fill: var(--icons-color);
+}
+
+.client-link:focus .icon-client,
+.client-link:hover .icon-client{
     fill: var(--second-color);
 }
 
