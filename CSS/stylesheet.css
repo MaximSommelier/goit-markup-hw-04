@@ -346,13 +346,13 @@ img {
     border-radius: 4px;
     cursor: pointer;
 }
-.client-link:hover,
-.client-link:focus{
-    color: var(--second-color);
-}
 
 .icon-client{
     fill: var(--icons-color);
+}
+.client-link:hover,
+.client-link:focus{
+    border-color: var(--second-color);
 }
 
 .client-link:focus .icon-client,
